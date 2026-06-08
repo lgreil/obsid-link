@@ -1,0 +1,17 @@
+# Build output — not committed, published via GitHub Releases
+main.js
+*.js.map
+
+# Dependencies
+node_modules/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Editor directories
+.idea/
+.vscode/
+
+# Local env
+.env
