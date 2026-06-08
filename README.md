@@ -93,6 +93,14 @@ Pull requests and issues are welcome. Please open an issue before starting signi
 
 ---
 
+## Credits
+
+This plugin is a thin Obsidian wrapper around **[obsid.net](https://obsid.net)**, built and maintained by [Joost de Valk](https://github.com/jdevalk) (founder of Yoast). All the actual link-conversion and redirect logic is his work — the source is at [github.com/jdevalk/obsid.net](https://github.com/jdevalk/obsid.net).
+
+This plugin simply brings that service into Obsidian as a native command and ribbon button. If you find obsid.net useful, consider starring his repository.
+
+---
+
 ## License
 
 [MIT](LICENSE)
