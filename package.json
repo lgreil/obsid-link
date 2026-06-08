@@ -1,6 +1,6 @@
 {
   "name": "obsid-link",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Obsidian plugin to copy or open obsid.net shareable links for the current note",
   "main": "main.js",
   "scripts": {

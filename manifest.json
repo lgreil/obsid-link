@@ -1,11 +1,11 @@
 {
-  "id": "obsid-link",
-  "name": "obsid.net Link",
-  "version": "1.0.0",
-  "minAppVersion": "1.4.0",
-  "description": "Copy or open a shareable obsid.net link for the current note — a clickable HTTPS wrapper around Obsidian deep links.",
-  "author": "Leon Greil",
-  "authorUrl": "https://github.com/lgreil",
-  "fundingUrl": "",
-  "isDesktopOnly": true
+	"id": "obsid-link",
+	"name": "obsid.net Link",
+	"version": "1.0.1",
+	"minAppVersion": "1.4.0",
+	"description": "Copy or open a shareable obsid.net link for the current note — a clickable HTTPS wrapper around Obsidian deep links.",
+	"author": "Leon Greil",
+	"authorUrl": "https://github.com/lgreil",
+	"fundingUrl": "",
+	"isDesktopOnly": true
 }
