@@ -1,4 +1,4 @@
-# obsid.net Link — Obsidian Plugin
+# Microsoft-Compatible Link — Obsidian Plugin
 
 Copy or open a shareable [obsid.net](https://obsid.net) link for any note with one click.
 

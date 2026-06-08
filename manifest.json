@@ -3,7 +3,7 @@
 	"name": "Microsoft-Compatible Link",
 	"version": "1.0.2",
 	"minAppVersion": "1.4.0",
-	"description": "Copy or open a shareable obsid.net link for the current note — a clickable HTTPS wrapper around Obsidian deep links.",
+	"description": "Copy or open a shareable obsid.net link for the current note — a clickable HTTPS wrapper around deep links.",
 	"author": "Leon Greil",
 	"authorUrl": "https://github.com/lgreil",
 	"fundingUrl": "",

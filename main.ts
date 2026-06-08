@@ -27,26 +27,26 @@ export default class ObsidLinkPlugin extends Plugin {
 		this.addSettingTab(new ObsidLinkSettingTab(this.app, this));
 
 		this.addCommand({
-			id: "copy-obsid-link",
+			id: "copy-link",
 			name: "Copy obsid.net link for current note",
 			checkCallback: (checking: boolean) => {
 				const file = this.app.workspace.getActiveFile();
 				if (!file) return false;
 				if (!checking) {
-					this.handleLink(file, "copy");
+					void this.handleLink(file, "copy");
 				}
 				return true;
 			},
 		});
 
 		this.addCommand({
-			id: "open-obsid-link",
+			id: "open-link",
 			name: "Open current note via obsid.net",
 			checkCallback: (checking: boolean) => {
 				const file = this.app.workspace.getActiveFile();
 				if (!file) return false;
 				if (!checking) {
-					this.handleLink(file, "open");
+					void this.handleLink(file, "open");
 				}
 				return true;
 			},
@@ -75,7 +75,7 @@ export default class ObsidLinkPlugin extends Plugin {
 						new Notice("No active note open.");
 						return;
 					}
-					this.handleLink(file, this.settings.action);
+					void this.handleLink(file, this.settings.action);
 				}
 			);
 		}
@@ -130,7 +130,7 @@ class ObsidLinkSettingTab extends PluginSettingTab {
 					.addOption("copy", "Copy link to clipboard")
 					.addOption("open", "Open note via obsid.net")
 					.setValue(this.plugin.settings.action)
-					.onChange(async (value) => {
+					.onChange(async (value: string) => {
 						this.plugin.settings.action = value as "copy" | "open";
 						await this.plugin.saveSettings();
 					})
